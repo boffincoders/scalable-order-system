@@ -1,0 +1,95 @@
+# =========================
+# Dependencies
+# =========================
+node_modules/
+.pnp/
+.pnp.js
+
+# =========================
+# Build outputs
+# =========================
+dist/
+build/
+coverage/
+
+# React
+apps/**/build/
+apps/**/dist/
+
+# =========================
+# TypeScript
+# =========================
+*.tsbuildinfo
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Runtime files
+# =========================
+*.pid
+*.pid.lock
+
+# =========================
+# OS generated files
+# =========================
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Docker
+# =========================
+docker-data/
+*.tar
+*.tmp
+
+# =========================
+# k6 / load testing
+# =========================
+load-tests/results/
+*.json
+
+# =========================
+# Stripe CLI
+# =========================
+.stripe/
+
+# =========================
+# Cache
+# =========================
+.cache/
+.eslintcache
+
+# =========================
+# Optional: lockfiles
+# (keep ONE, ignore others)
+# =========================
+# yarn.lock
+# pnpm-lock.yaml
+# package-lock.json
